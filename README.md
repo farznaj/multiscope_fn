@@ -1,5 +1,5 @@
 # multiscope_fn
-Codes used for the analysis of Allen Institute Multiscope data used in this paper: https://www.biorxiv.org/content/10.1101/2020.10.06.328294v2
+Codes used for the analysis of the Allen Institute Multiscope data described in this paper: https://www.biorxiv.org/content/10.1101/2020.10.06.328294v2
 
 The codes in this repository use the Visual Behavior dataset collected at the Allen Institute using Multiplane Mesoscopes.
 Dataset:
@@ -20,11 +20,11 @@ define the following directories in def_paths.py:
 
 /allen/programs/braintv/workgroups/nc-ophys/Farzaneh/mouse_trainHist_all2_20210216_151651.h5
 
-**Neural responses file (a single file includes all sessions data):**
+**Neural responses (a single file includes all sessions data):**
 
 /allen/programs/braintv/workgroups/nc-ophys/Farzaneh/omit_traces_peaks/all_sess_omit_traces_peaks_np_corr_dff_20210309_152538.h5
 
-**Neural correlations files (130 files; each belongs to a single session):**
+**Neural correlations (130 files; each belongs to a single session):**
 
 this_sess_omit_traces_peaks_corr_m-440631_s-857040020_20210215_214246.pkl
 this_sess_omit_traces_peaks_corr_m-485152_s-993738515_20210215_214530.pkl
